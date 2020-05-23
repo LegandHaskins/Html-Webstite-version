@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #232626;
+    /* background: url(../image/bloodfalling.gif) no-repeat center fixed;
+    background-size: cover; */
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-content {
+    height: 500px;
+    width: 500px;
+    padding: 40px;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+
+.inner-circle {
+    width: 100%;
+    height: 100%;
+    border: 5px solid red;
+    border-radius: 100%;
+    margin: -5px 0 0 -5px;
+    box-shadow: 0 0 10px rgb(224, 36, 36);
+}
+
+.txt {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px 10px 10px 10px;
+    border: solid;
+    width: 30%;
+    position: relative;
+    // position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.border-hdr {
+    /* color: rgb(251, 14, 14); */
+    color: silver;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.user_img {
+    color: black;
+    text-align: center;
+    border-radius: 100%;
+    border: 3px solid;
+    width: 200px;
+    height: 200px;
+}
+
+
+/* .input-css{ 
+    background-color: white; 
+    border: 2px solid #f44336; 
+} 
+.input-css:hover{ 
+    background-color: #008CBA;
+    color: white; 
+    } */
+
+.test {
+    color: white;
+    border: solid;
+    border-radius: 12px;
+    background-color: #232626;
+    font-size: 16px;
+    width: 150px;
+    text-align: center;
+    margin: 180px 0px 100px 175px;
+}
+
+.test:hover {
+    background-color: red;
+    color: #232626;
+    box-shadow: 0 0 10px rgb(224, 36, 36);
+}
+
+.marg {
+    height: 50px;
+    width: 150px;
+}
+
+.user-name {
+    text-align: left;
+    border: 3px solid;
+    /* border-style: double; */
+    font-size: 20px;
+    width: 170px;
+}
+
+.bio {
+    text-align: left;
+    border: 3px solid;
+    font-size: 15px;
+    width: 100px;
+}
+
+.bio-para {
+    text-align: left;
+    border: 3px solid;
+    font-size: 13px;
+    width: 230px;
+}
+
+.sub-h2-txt {
+    border: solid 3px;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sub-p-txt {
+    border: solid 3px;
+    color: red;
+    font-size: 16px;
+}
+
+.sub-txt-holder {
+    border: solid 3px;
+    color: red;
+    text-align: left;
+    width: 350px;
+    height: 430px;
+}
+
+.parent {
+    padding: 40px;
+}
+
+.famly {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+
+.user-font-sizing {
+    padding: 50px;
+    /* width: 150px;
+    height: 150px; */
+}
+
+.border_bottom {
+    border-bottom: solid 3px;
+}
+
+.img_parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 40px;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.img_fam {
+    display: inline-block;
+    height: 400px;
+    grid-column-start: span 2;
+    border-radius: .25rem;
+    margin: auto;
+}
+
+.extra {
+    float: right;
+}
