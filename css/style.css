@@ -22,6 +22,9 @@ main {
     padding: 40px;
     border: 3px solid white;
     border-radius: 100%;
+    /* animation: rotation 8s infinite linear; */
+    /* margin: 50%; */
+    box-shadow: 0 0 10px white;
 }
 
 .inner-circle {
@@ -31,6 +34,16 @@ main {
     border-radius: 100%;
     margin: -5px 0 0 -5px;
     box-shadow: 0 0 10px rgb(224, 36, 36);
+    /* animation: rotation 8s infinite linear; */
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
 }
 
 .txt {
@@ -41,7 +54,7 @@ main {
     border: solid;
     width: 30%;
     position: relative;
-    // position: absolute;
+    position: absolute;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -180,4 +193,20 @@ main {
 
 .extra {
     float: right;
+}
+
+.leave {
+    border-radius: 12px 12px 12px 12px;
+    width: 95px;
+    height: 25px;
+    text-align: center;
+    color: red;
+    border: solid 2px #232626;
+    font-size: 15px;
+}
+
+.leave:hover {
+    background-color: red;
+    color: #232626;
+    box-shadow: 0 0 10px rgb(224, 36, 36);
 }

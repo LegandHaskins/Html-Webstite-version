@@ -1,7 +1,28 @@
-.atende-counter{
+.atende-counter {
     border: solid 3px;
-    font-size: 20px;
+    font-size: 50px;
     color: white;
-    width: 150px;
+    width: 375px;
     padding: 5px 10px 5px 10px;
 }
+
+.counter_and_sub-txt_parent {
+    margin: 40px;
+    /* float: right; */
+}
+
+.counter_and_sub_box {
+    display: inline-block;
+}
+
+.Rank_parent {}
+
+.Rank_siblings {}
+
+.Rank_Divs {}
+
+.numb-rank {}
+
+.rank_box {}
+
+.rank_price_and_txt {}
