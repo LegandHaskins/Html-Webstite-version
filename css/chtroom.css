@@ -7,3 +7,44 @@
 .cht_room_top_bar {
     display: inline-block;
 }
+
+.Chat_Box {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+    /* background-image: url(); */
+    background-color: red;
+    height: 30px;
+    border-radius: 40px;
+    padding: 10px;
+    width: 300px;
+    margin-left: 110px;
+    margin-top: 530px;
+    box-shadow: 0 0 10px rgb(224, 36, 36);
+}
+
+.Chat_box_txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 255px;
+}
+
+.Chat_Submit_Button {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
